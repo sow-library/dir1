@@ -1,0 +1,21 @@
+{
+    "name": "sow-library/dir1",
+    "description": "testing package for laravel packages",
+    "autoload": {
+        "psr-4": {
+            "SowLibrary\\Dir1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jake Atchison",
+            "email": "sipofwater@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.1"
+    },
+    "require": {
+        "php": ">8.0"
+    }
+}
